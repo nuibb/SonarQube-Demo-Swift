@@ -1,0 +1,6 @@
+framework module Pods_SonarCubeDemoApp {
+  umbrella header "Pods-SonarCubeDemoApp-umbrella.h"
+
+  export *
+  module * { export * }
+}

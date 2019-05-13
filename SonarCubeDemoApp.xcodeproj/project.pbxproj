@@ -1,0 +1,671 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		710FED1D5F62D1ACDF88B560 /* Pods_SonarCubeDemoApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98DC069FD93D11F3FF59ADB6 /* Pods_SonarCubeDemoApp.framework */; };
+		D619CD122289274900BBDD3E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D619CD112289274900BBDD3E /* AppDelegate.swift */; };
+		D619CD142289274900BBDD3E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D619CD132289274900BBDD3E /* ViewController.swift */; };
+		D619CD172289274900BBDD3E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D619CD152289274900BBDD3E /* Main.storyboard */; };
+		D619CD192289274B00BBDD3E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D619CD182289274B00BBDD3E /* Assets.xcassets */; };
+		D619CD1C2289274B00BBDD3E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D619CD1A2289274B00BBDD3E /* LaunchScreen.storyboard */; };
+		D619CD272289274B00BBDD3E /* SonarCubeDemoAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D619CD262289274B00BBDD3E /* SonarCubeDemoAppTests.swift */; };
+		D619CD322289274C00BBDD3E /* SonarCubeDemoAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D619CD312289274C00BBDD3E /* SonarCubeDemoAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D619CD232289274B00BBDD3E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D619CD062289274900BBDD3E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D619CD0D2289274900BBDD3E;
+			remoteInfo = SonarCubeDemoApp;
+		};
+		D619CD2E2289274C00BBDD3E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D619CD062289274900BBDD3E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D619CD0D2289274900BBDD3E;
+			remoteInfo = SonarCubeDemoApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		43E32FD4C7962D52569C7B3A /* Pods-SonarCubeDemoApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SonarCubeDemoApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SonarCubeDemoApp/Pods-SonarCubeDemoApp.debug.xcconfig"; sourceTree = "<group>"; };
+		98DC069FD93D11F3FF59ADB6 /* Pods_SonarCubeDemoApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SonarCubeDemoApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA42D1C5CE8F912D259A159C /* Pods-SonarCubeDemoApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SonarCubeDemoApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-SonarCubeDemoApp/Pods-SonarCubeDemoApp.release.xcconfig"; sourceTree = "<group>"; };
+		D619CD0E2289274900BBDD3E /* SonarCubeDemoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SonarCubeDemoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D619CD112289274900BBDD3E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D619CD132289274900BBDD3E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D619CD162289274900BBDD3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D619CD182289274B00BBDD3E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D619CD1B2289274B00BBDD3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D619CD1D2289274B00BBDD3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D619CD222289274B00BBDD3E /* SonarCubeDemoAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SonarCubeDemoAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D619CD262289274B00BBDD3E /* SonarCubeDemoAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SonarCubeDemoAppTests.swift; sourceTree = "<group>"; };
+		D619CD282289274B00BBDD3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D619CD2D2289274C00BBDD3E /* SonarCubeDemoAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SonarCubeDemoAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D619CD312289274C00BBDD3E /* SonarCubeDemoAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SonarCubeDemoAppUITests.swift; sourceTree = "<group>"; };
+		D619CD332289274C00BBDD3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D619CD0B2289274900BBDD3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				710FED1D5F62D1ACDF88B560 /* Pods_SonarCubeDemoApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D619CD1F2289274B00BBDD3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D619CD2A2289274C00BBDD3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4E2CE103A3A05F30D5EF4389 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				43E32FD4C7962D52569C7B3A /* Pods-SonarCubeDemoApp.debug.xcconfig */,
+				AA42D1C5CE8F912D259A159C /* Pods-SonarCubeDemoApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D443C4041FF3C92271B2FFE0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				98DC069FD93D11F3FF59ADB6 /* Pods_SonarCubeDemoApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D619CD052289274900BBDD3E = {
+			isa = PBXGroup;
+			children = (
+				D619CD102289274900BBDD3E /* SonarCubeDemoApp */,
+				D619CD252289274B00BBDD3E /* SonarCubeDemoAppTests */,
+				D619CD302289274C00BBDD3E /* SonarCubeDemoAppUITests */,
+				D619CD0F2289274900BBDD3E /* Products */,
+				4E2CE103A3A05F30D5EF4389 /* Pods */,
+				D443C4041FF3C92271B2FFE0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D619CD0F2289274900BBDD3E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D619CD0E2289274900BBDD3E /* SonarCubeDemoApp.app */,
+				D619CD222289274B00BBDD3E /* SonarCubeDemoAppTests.xctest */,
+				D619CD2D2289274C00BBDD3E /* SonarCubeDemoAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D619CD102289274900BBDD3E /* SonarCubeDemoApp */ = {
+			isa = PBXGroup;
+			children = (
+				D619CD112289274900BBDD3E /* AppDelegate.swift */,
+				D619CD132289274900BBDD3E /* ViewController.swift */,
+				D619CD152289274900BBDD3E /* Main.storyboard */,
+				D619CD182289274B00BBDD3E /* Assets.xcassets */,
+				D619CD1A2289274B00BBDD3E /* LaunchScreen.storyboard */,
+				D619CD1D2289274B00BBDD3E /* Info.plist */,
+			);
+			path = SonarCubeDemoApp;
+			sourceTree = "<group>";
+		};
+		D619CD252289274B00BBDD3E /* SonarCubeDemoAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				D619CD262289274B00BBDD3E /* SonarCubeDemoAppTests.swift */,
+				D619CD282289274B00BBDD3E /* Info.plist */,
+			);
+			path = SonarCubeDemoAppTests;
+			sourceTree = "<group>";
+		};
+		D619CD302289274C00BBDD3E /* SonarCubeDemoAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D619CD312289274C00BBDD3E /* SonarCubeDemoAppUITests.swift */,
+				D619CD332289274C00BBDD3E /* Info.plist */,
+			);
+			path = SonarCubeDemoAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D619CD0D2289274900BBDD3E /* SonarCubeDemoApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D619CD362289274C00BBDD3E /* Build configuration list for PBXNativeTarget "SonarCubeDemoApp" */;
+			buildPhases = (
+				CFBDDF5531C16A4AE30D8585 /* [CP] Check Pods Manifest.lock */,
+				D619CD0A2289274900BBDD3E /* Sources */,
+				D619CD0B2289274900BBDD3E /* Frameworks */,
+				D619CD0C2289274900BBDD3E /* Resources */,
+				8FDE59185B78622C41740127 /* [CP] Embed Pods Frameworks */,
+				86444FF82799121AC55B96DF /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SonarCubeDemoApp;
+			productName = SonarCubeDemoApp;
+			productReference = D619CD0E2289274900BBDD3E /* SonarCubeDemoApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D619CD212289274B00BBDD3E /* SonarCubeDemoAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D619CD392289274C00BBDD3E /* Build configuration list for PBXNativeTarget "SonarCubeDemoAppTests" */;
+			buildPhases = (
+				D619CD1E2289274B00BBDD3E /* Sources */,
+				D619CD1F2289274B00BBDD3E /* Frameworks */,
+				D619CD202289274B00BBDD3E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D619CD242289274B00BBDD3E /* PBXTargetDependency */,
+			);
+			name = SonarCubeDemoAppTests;
+			productName = SonarCubeDemoAppTests;
+			productReference = D619CD222289274B00BBDD3E /* SonarCubeDemoAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D619CD2C2289274C00BBDD3E /* SonarCubeDemoAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D619CD3C2289274C00BBDD3E /* Build configuration list for PBXNativeTarget "SonarCubeDemoAppUITests" */;
+			buildPhases = (
+				D619CD292289274C00BBDD3E /* Sources */,
+				D619CD2A2289274C00BBDD3E /* Frameworks */,
+				D619CD2B2289274C00BBDD3E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D619CD2F2289274C00BBDD3E /* PBXTargetDependency */,
+			);
+			name = SonarCubeDemoAppUITests;
+			productName = SonarCubeDemoAppUITests;
+			productReference = D619CD2D2289274C00BBDD3E /* SonarCubeDemoAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D619CD062289274900BBDD3E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "MobioApp Limited";
+				TargetAttributes = {
+					D619CD0D2289274900BBDD3E = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					D619CD212289274B00BBDD3E = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = D619CD0D2289274900BBDD3E;
+					};
+					D619CD2C2289274C00BBDD3E = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = D619CD0D2289274900BBDD3E;
+					};
+				};
+			};
+			buildConfigurationList = D619CD092289274900BBDD3E /* Build configuration list for PBXProject "SonarCubeDemoApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D619CD052289274900BBDD3E;
+			productRefGroup = D619CD0F2289274900BBDD3E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D619CD0D2289274900BBDD3E /* SonarCubeDemoApp */,
+				D619CD212289274B00BBDD3E /* SonarCubeDemoAppTests */,
+				D619CD2C2289274C00BBDD3E /* SonarCubeDemoAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D619CD0C2289274900BBDD3E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D619CD1C2289274B00BBDD3E /* LaunchScreen.storyboard in Resources */,
+				D619CD192289274B00BBDD3E /* Assets.xcassets in Resources */,
+				D619CD172289274900BBDD3E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D619CD202289274B00BBDD3E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D619CD2B2289274C00BBDD3E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		86444FF82799121AC55B96DF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SonarCubeDemoApp/Pods-SonarCubeDemoApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8FDE59185B78622C41740127 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SonarCubeDemoApp/Pods-SonarCubeDemoApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CFBDDF5531C16A4AE30D8585 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SonarCubeDemoApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D619CD0A2289274900BBDD3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D619CD142289274900BBDD3E /* ViewController.swift in Sources */,
+				D619CD122289274900BBDD3E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D619CD1E2289274B00BBDD3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D619CD272289274B00BBDD3E /* SonarCubeDemoAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D619CD292289274C00BBDD3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D619CD322289274C00BBDD3E /* SonarCubeDemoAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D619CD242289274B00BBDD3E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D619CD0D2289274900BBDD3E /* SonarCubeDemoApp */;
+			targetProxy = D619CD232289274B00BBDD3E /* PBXContainerItemProxy */;
+		};
+		D619CD2F2289274C00BBDD3E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D619CD0D2289274900BBDD3E /* SonarCubeDemoApp */;
+			targetProxy = D619CD2E2289274C00BBDD3E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D619CD152289274900BBDD3E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D619CD162289274900BBDD3E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D619CD1A2289274B00BBDD3E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D619CD1B2289274B00BBDD3E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D619CD342289274C00BBDD3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D619CD352289274C00BBDD3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D619CD372289274C00BBDD3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43E32FD4C7962D52569C7B3A /* Pods-SonarCubeDemoApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J654DD59XE;
+				INFOPLIST_FILE = SonarCubeDemoApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.datasoft.SonarCubeDemoApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D619CD382289274C00BBDD3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA42D1C5CE8F912D259A159C /* Pods-SonarCubeDemoApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J654DD59XE;
+				INFOPLIST_FILE = SonarCubeDemoApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.datasoft.SonarCubeDemoApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D619CD3A2289274C00BBDD3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 429CSS9779;
+				INFOPLIST_FILE = SonarCubeDemoAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.datasoft.SonarCubeDemoAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SonarCubeDemoApp.app/SonarCubeDemoApp";
+			};
+			name = Debug;
+		};
+		D619CD3B2289274C00BBDD3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 429CSS9779;
+				INFOPLIST_FILE = SonarCubeDemoAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.datasoft.SonarCubeDemoAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SonarCubeDemoApp.app/SonarCubeDemoApp";
+			};
+			name = Release;
+		};
+		D619CD3D2289274C00BBDD3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 429CSS9779;
+				INFOPLIST_FILE = SonarCubeDemoAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.datasoft.SonarCubeDemoAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SonarCubeDemoApp;
+			};
+			name = Debug;
+		};
+		D619CD3E2289274C00BBDD3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 429CSS9779;
+				INFOPLIST_FILE = SonarCubeDemoAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.datasoft.SonarCubeDemoAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SonarCubeDemoApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D619CD092289274900BBDD3E /* Build configuration list for PBXProject "SonarCubeDemoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D619CD342289274C00BBDD3E /* Debug */,
+				D619CD352289274C00BBDD3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D619CD362289274C00BBDD3E /* Build configuration list for PBXNativeTarget "SonarCubeDemoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D619CD372289274C00BBDD3E /* Debug */,
+				D619CD382289274C00BBDD3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D619CD392289274C00BBDD3E /* Build configuration list for PBXNativeTarget "SonarCubeDemoAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D619CD3A2289274C00BBDD3E /* Debug */,
+				D619CD3B2289274C00BBDD3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D619CD3C2289274C00BBDD3E /* Build configuration list for PBXNativeTarget "SonarCubeDemoAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D619CD3D2289274C00BBDD3E /* Debug */,
+				D619CD3E2289274C00BBDD3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D619CD062289274900BBDD3E /* Project object */;
+}
